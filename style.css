@@ -1,6 +1,7 @@
 body {
   overflow-x: hidden;
   background-color: white;
+  width: 100vh;
 }
 
 button:hover.contact-btn {
@@ -23,15 +24,18 @@ button:hover.contact-btn {
   right: -50%;
   top: 0;
   z-index: -1;
+  overflow: hidden;
 }
 
 .bg2 {
   animation-direction: alternate-reverse;
   animation-duration: 7s;
+  overflow: hidden;
 }
 
 .bg3 {
   animation-duration: 9s;
+  overflow: hidden;
 }
 
 @keyframes slide {
