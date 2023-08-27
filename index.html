@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Js Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css"
+  </head>
+
+  <body>
+    <section id="nav-bar">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary bg-opacity-50">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="/assets/code-brackets.png"
+              alt="Logo"
+              width="30"
+              height="24"
+              class="d-inline-block align-text-top"
+            />
+            J's Portfolio
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#about-me">About Me</a>
+              <a class="nav-link" href="#my-projects">My Projects</a>
+              <a class="nav-link" href="#contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section id="hero">
+      <div class="bg"></div>
+      <div class="bg bg2"></div>
+      <div class="bg bg3"></div>
+      <div class="px-4 py-5 my-5 text-center">
+        <img
+          class="d-block mx-auto mb-4"
+          src="/assets/programmer.png"
+          alt=""
+          width="72"
+          height="57"
+        />
+        <h1 class="display-5 fw-bold text-body-emphasis">A Portfolio</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">
+            This is an example of a portfolio website. Here I would put a few
+            catchy lines about myself that hopefully catch your eye and
+            encourage you to read more about me. Scroll down if that worked!
+          </p>
+
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="#about-me">
+              <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
+                Learn More About Me
+              </button>
+            </a>
+
+            <a href="#contact">
+              <button type="button" class="btn btn-outline-light btn-lg px-4">
+                Contact Me
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="back-color-wrapper">
+      <section id="about-me" class="bg-light">
+        <div class="container py-1">
+          <div
+            class="row p-3 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg m-5 justify-content-center"
+          >
+            <div class="col-lg-6 p-3 p-lg-5 pt-lg-3">
+              <h1 class="display-4 fw-bold lh-1 text-body-emphasis">
+                About Me
+              </h1>
+              <p class="lead">
+                Having once enchanted audiences with their musical talents,
+                [Musician's Name] has taken a unique path by delving into the
+                realm of programming. This unexpected convergence of artistry
+                and logic has not only broadened their horizons but has also
+                created a fascinating synergy between their two passions.
+              </p>
+              <div
+                class="d-grid gap-2 d-md-flex justify-content-md-start- mb-4 mb-lg-3"
+              ></div>
+            </div>
+            <div
+              class="col-lg-5 col-md-9 overflow-hidden rounded-3 p-md-5 d-flex"
+            >
+              <img
+                class="rounded-3"
+                src="/assets/cellist.jpg"
+                alt="cello"
+                width="300"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="my-projects" class="projects">
+        <div class="container">
+          <h1
+            class="display-4 fw-bold lh-1 text-body-emphasis text-center py-5"
+          >
+            My Projects
+          </h1>
+          <div
+            class="d-flex flex-lg-row flex-column justify-content-lg-around align-items-sm-center pb-5"
+          >
+            <div class="card border-2 me-lg-4 mb-lg-0 mb-4">
+              <div class="backgroundEffect"></div>
+              <div class="pic">
+                <img class="" src="/assets/tindog.png" alt="website picture" />
+                <div class="project tindog">TinDogs</div>
+              </div>
+              <div class="content">
+                <p class="h-1 mt-4">Mobile Optimized Website</p>
+                <p class="text-muted mt-3">
+                  This is a fun spoof of the site Tinder. This website
+                  demonstrates the importance of optimizing from mobile to
+                  desktop and everything inbetween.
+                </p>
+                <div
+                  class="d-flex align-items-center justify-content-between mt-3 pb-3"
+                >
+                  <div class="btn btn-primary">
+                    Visit Site<span class="fas fa-arrow-right"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card border-0 me-lg-4 mb-lg-0 mb-4">
+              <div class="backgroundEffect"></div>
+              <div class="pic">
+                <img class="" src="assets/Mondrian.png" alt="website picture" />
+                <div class="project mondrian">Mondrian Recreation</div>
+              </div>
+              <div class="content">
+                <p class="h-1 mt-4">Mastering CSS Grid</p>
+                <p class="text-muted mt-3">
+                  A challenge to utilize the CSS Grid functionality to recreate
+                  Piet Mondrian's “Composition No. II” (which sold for $51
+                  million in 2022).
+                </p>
+                <div
+                  class="d-flex align-items-center justify-content-between mt-3 pb-3"
+                >
+                  <div class="btn btn-primary">
+                    Visit Site<span class="fas fa-arrow-right"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card border-0 mb-lg-0 mb-4">
+              <div class="backgroundEffect"></div>
+              <div class="pic">
+                <img
+                  class=""
+                  src="/assets/portfolio.png"
+                  alt="website picture"
+                />
+                <div class="project portfolio">Portfolio</div>
+              </div>
+              <div class="content">
+                <p class="h-1 mt-4">Flexbox, Grid, Bootstrap</p>
+                <p class="text-muted mt-3">
+                  This portfolio website demonstrates many different features
+                  that grid, flexbox, Bootstrap, and CSS animation can offer.
+                </p>
+                <div
+                  class="d-flex align-items-center justify-content-between mt-3 pb-3"
+                >
+                  <div class="btn btn-primary">
+                    Visit Site<span class="fas fa-arrow-right"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="#contact"></section>
+    </div>
+    <section id="#footer">
+      <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about-me" class="nav-link px-2 text-body-secondary"
+                >About Me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#my-projects" class="nav-link px-2 text-body-secondary"
+                >My Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link px-2 text-body-secondary"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <p class="text-center text-body-secondary">© 2023 J</p>
+        </footer>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
